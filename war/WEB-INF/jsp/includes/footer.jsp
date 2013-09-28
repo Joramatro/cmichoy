@@ -81,7 +81,7 @@
 					
 					<h3>Sobre nosotros</h3>
 					<p>
-						Somos un equipo de personas con gran formación tecnológica y conocimientos técnicos sobre microondas. Queremos ofrecerte la mejor información sobre todos los detalles que necesitas saber sobre el microondas que quieres comprar.
+						Somos un equipo de personas con gran formación tecnológica y conocimientos técnicos sobre microondas. Queremos ofrecerte la mejor información y todos los detalles que necesitas saber sobre el microondas que quieres comprar.
 					</p>
 						
 				</div>
