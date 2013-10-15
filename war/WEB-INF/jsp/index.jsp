@@ -18,15 +18,15 @@
 					<p>${publicacion.descPortada}</p>
 					<c:choose>
 					<c:when test="${publicacion.script ne '#' }">
-						<a href="/venta/principal/${publicacion.url}" class="da-link">COMPRAR HOY</a>
+						<a title="${publicacion.titulo}" href="/venta/principal/${publicacion.url}" class="da-link">COMPRAR HOY</a>
 					</c:when>
 					<c:otherwise>
 						<c:choose>
 						<c:when test="${publicacion.tipo eq 'EB' }">
-							<a href="/microondas/${publicacion.url}" class="da-link">LEER MÁS</a>
+							<a title="${publicacion.titulo}" href="/microondas/${publicacion.url}" class="da-link">LEER MÁS</a>
 						</c:when>
 						<c:otherwise>
-							<a href="/blog/${publicacion.url}" class="da-link">LEER MÁS</a>
+							<a title="${publicacion.titulo}" href="/blog/${publicacion.url}" class="da-link">LEER MÁS</a>
 						</c:otherwise>
 						</c:choose>	
 					</c:otherwise>
@@ -34,10 +34,10 @@
 					<div class="da-img">
 						<c:choose>
 							<c:when test="${publicacion.tipo eq 'EB' }">
-								<a href="/microondas/${publicacion.url}">
+								<a title="${publicacion.titulo}" href="/microondas/${publicacion.url}">
 							</c:when>	
 							<c:otherwise>
-								<a href="/blog/${publicacion.url}">
+								<a title="${publicacion.titulo}" href="/blog/${publicacion.url}">
 							</c:otherwise>
 						</c:choose>
 						<c:if test="${!empty publicacion.lImages}">
@@ -68,7 +68,7 @@
 				<h3>
 					Desde que el horno microondas ha llegado a nuestras vidas y cocinas, nuestra forma de vida ha cambiado completamente de manera que a muchos nos cuesta imaginarnos una vida sin este aparato: hace tiempo que dejó de ser una novedad.
 				</h3>
-        		<p><a class="btn btn-primary btn-large" href="/blog">ver Blog</a> &nbsp;&nbsp;<a class="btn btn-primary btn-large" href="/microondas">ver Microondas</a></p>
+        		<p><a class="btn btn-primary btn-large" title="Blog" href="/blog">ver Blog</a> &nbsp;&nbsp;<a class="btn btn-primary btn-large" title="Microondas" href="/microondas">ver Microondas</a></p>
       		</div>
 			<!-- end: Hero Unit -->
       		
@@ -149,7 +149,7 @@
 					
 					<div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
-							<h5><a href="/microondas/${publicacion.url}">${publicacion.titulo}</a></h5>
+							<h5><a title="${publicacion.titulo}" href="/microondas/${publicacion.url}">${publicacion.titulo}</a></h5>
 							<p>
 								${fn:replace(publicacion.resumen, newLineChar, "<p/><p>")}
 							</p>
@@ -168,7 +168,7 @@
 					
 					<div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
-							<h5><a href="/blog/${publicacion.url}">${publicacion.titulo}</a></h5>
+							<h5><a title="${publicacion.titulo}" href="/blog/${publicacion.url}">${publicacion.titulo}</a></h5>
 							<p>
 								${fn:replace(publicacion.resumen, newLineChar, "<p/><p>")}
 							</p>
