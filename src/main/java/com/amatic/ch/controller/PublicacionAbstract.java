@@ -46,7 +46,7 @@ public abstract class PublicacionAbstract {
 			    + email + "\n Dejado en:" + url + "\n Comentario:"
 			    + comentario + "\n Web:" + web + "\n Puntos:"
 			    + puntos + "\n Nombre:" + nombre,
-		    "Spam comentario en CEHOY");
+		    "Spam comentario en CMicroHOY");
 	    ok = false;
 	    return;
 	}
