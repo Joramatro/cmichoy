@@ -102,7 +102,7 @@
 		<!-- end: Twitter tags -->		
 		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/extras“/>
 	</c:when>
-	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacto')}">
+	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacta')}">
 		<title>Contacta con Comprar Microondas Hoy</title> 
 		<meta name="description" content="Contacta con los que trabajamos en Comprar Microondas Hoy"/>
 		<meta name="keywords" content="contacta microondas, comprar microondas" />
@@ -128,9 +128,8 @@
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
 		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/contacto“/>
-		<link rel="shortcut icon" href="http://www.comprarmicroondashoy.com/favicon.ico?v=2" />
 	</c:when>
-	<c:when test="${fn:contains(pageContext.request.requestURI, 'microondas')}">
+	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks')}">
 		<title>Microondas y precios en Comprar Microondas Hoy</title> 
 		<meta name="description" content="Análisis y precios de los mejores microondas, horno microondas, de conveccion, integrable o encastrable en la actualidad para que puedas comprar tu microondas preferido y comparar online"/>
 		<meta name="keywords" content="análisis microondas, microondas, comprar microondas, comparar precios microondas" />
