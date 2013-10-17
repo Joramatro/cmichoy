@@ -39,7 +39,7 @@ public abstract class PublicacionAbstract {
 	    String web, String nbrComment, String tipo) throws IOException,
 	    NoSuchAlgorithmException {
 	Akismet akismet = new Akismet("49f8a3bfb431",
-		"http://www.comosermasguapo.com");
+		"http://www.comprarmicroondashoy.com");
 	boolean isSpam = akismet.commentCheck(request.getRemoteAddr(),
 		request.getHeader("User-agent"), request.getHeader("referer"),
 		"", // permalink
@@ -56,7 +56,7 @@ public abstract class PublicacionAbstract {
 			    + email + "\n Dejado en:" + url + "\n Tipo:" + tipo
 			    + "\n Comentario:" + comentario + "\n Web:" + web
 			    + "\n Puntos:" + puntos + "\n Nombre:" + nombre,
-		    "Spam Akimet comentario en ComoSerMasGuapo");
+		    "Spam Akimet comentario en Comprar Microondas Hoy");
 	    return;
 	} else {
 	    String key = WebUtils.SHA1(url.replaceAll("-", " "));
@@ -104,7 +104,7 @@ public abstract class PublicacionAbstract {
 			    + "\n Tipo:" + tipo + "\n Comentario:" + comentario
 			    + "\n Web:" + web + "\n Puntos:" + puntos
 			    + "\n Nombre:" + nombre,
-		    "Nuevo Comentario ComoSerMasGuapo");
+		    "Nuevo Comentario Comprar Microondas Hoy");
 	}
     }
 
