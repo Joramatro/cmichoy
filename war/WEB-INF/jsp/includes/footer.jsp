@@ -62,7 +62,7 @@
 		
 		<!-- start: Container -->
 		<div class="container">
-			<div id="banGoogleFooter" style="margin-left:99px">
+			<div id="banGoogleFooter" class="iframe_wrap" style="margin-left:99px">
 				<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- includes ch -->
 				<ins class="adsbygoogle"
