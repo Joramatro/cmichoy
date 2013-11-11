@@ -229,7 +229,7 @@
 	</c:choose>
 	<link rel="alternate" type="application/rss+xml" title="Comprar Microondas Hoy RSS Feed" href="http://www.comprarmicroondashoy.com/rssfeed" />
 	<link rel="author" href="https://plus.google.com/108657243775074009859" />
-	<link rel="publisher" href="https://plus.google.com/103298424982329605824" />
+	<link rel="publisher" href="https://www.google.com/+Comprarebookhoy" />
 	<style>
 	@font-face {
 	  font-family: 'Droid Sans';
@@ -327,6 +327,16 @@
 						
 		</div>
 		<!--end: Container-->			
-			
+	<div id="banGooHeader" class="iframe_wrap" style="width: 72%; margin:0 auto;">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- index medio horizontal -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:970px;height:90px"
+		     data-ad-client="ca-pub-3168560600423825"
+		     data-ad-slot="2942822544"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	</div>
 	</header>
 	<!--end: Header-->

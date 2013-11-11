@@ -4,7 +4,6 @@
 <%@ taglib prefix='fn' uri='http://java.sun.com/jsp/jstl/functions' %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-
 			<div class="row">	
 				<div class="span9">					
 					<div class="title"><h3>Los Microondas más vistos...</h3></div>
@@ -112,5 +111,5 @@
         				</c:forEach>					
 					</div>
 				</div>
-			</div>
+			</div>			
 			
