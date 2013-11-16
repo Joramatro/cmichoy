@@ -161,8 +161,7 @@ public class HomeController {
 
 	if (publicacion == null) {
 	    String uri = request.getRequestURI();
-	    throw new UnknownResourceException("There is no resource for path "
-		    + uri);
+	    throw new UnknownResourceException("No existe la ruta: " + uri);
 	    // return "channelNotFound";
 	}
 
@@ -175,11 +174,13 @@ public class HomeController {
 	    mensaje.append(", " + headerValue);
 	    mensaje.append("\n");
 	}
+
 	Mail.sendMail(mensaje.toString(), "CMH " + request.getRequestURI());
 
 	model.addAttribute("publicacion", publicacion);
 
 	return "venta/venta";
+
     }
 
 }

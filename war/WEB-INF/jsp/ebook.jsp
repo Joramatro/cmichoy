@@ -32,12 +32,12 @@
 		<!--start: Container -->
     	<div class="container">
 	    	<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
-				<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rec grande recomendado ch -->
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- articulo superior recuadro microondas -->
 				<ins class="adsbygoogle"
-				     style="display:inline-block;width:336px;height:280px"
+				     style="display:inline-block;width:300px;height:250px"
 				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="5882295745"></ins>
+				     data-ad-slot="5738814148"></ins>
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
@@ -119,11 +119,11 @@
 				</div>	
 				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 50%; margin:0 auto;">
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- en fin articulo -->
+					<!-- fin articulo skycraper microondas -->
 					<ins class="adsbygoogle"
 					     style="display:inline-block;width:728px;height:90px"
 					     data-ad-client="ca-pub-3168560600423825"
-					     data-ad-slot="9095370140"></ins>
+					     data-ad-slot="8692280547"></ins>
 					<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
