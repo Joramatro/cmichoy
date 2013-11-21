@@ -129,6 +129,10 @@ public abstract class PublicacionAbstract {
 		    && !categorias.contains(publicacion.getClase2())) {
 		categorias.add(publicacion.getClase2());
 	    }
+	    if (!publicacion.getClase7().equals("")
+		    && !categorias.contains(publicacion.getClase7())) {
+		categorias.add(publicacion.getClase7());
+	    }
 	}
 	Collections.sort(categorias);
 
