@@ -106,7 +106,7 @@
 	    	</td>
 	    	<td>
 	    	<div id="Amazon4" class="iframe_wrap">
-				<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmicroh-21&o=30&p=8&l=as1&asins=B0055ZOXGM&ref=tf_til&fc1=666666&IS2=1&lt1=_blank&m=amazon&lc1=005580&bc1=EBF7F9&bg1=EBF7F9&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+				<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarebookh-21&o=30&p=8&l=as1&asins=B003CP0Z7S&ref=tf_til&fc1=666666&IS2=1&lt1=_blank&m=amazon&lc1=005580&bc1=EBF7F9&bg1=EBF7F9&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 	    	</div>
 	    	</td>
 	    	</tr>
@@ -117,9 +117,10 @@
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
       		<div class="hero-unit">
 				<h3>
-					Desde que el horno microondas ha llegado a nuestras vidas y cocinas, nuestra forma de vida ha cambiado completamente de manera que a muchos nos cuesta imaginarnos una vida sin este aparato: hace tiempo que dejó de ser una novedad.
+					Desde que el horno microondas ha llegado a nuestras vidas y cocinas, nuestra forma de vida ha cambiado completamente de manera que a muchos nos cuesta imaginarnos una vida sin este aparato: hace tiempo que dejó de ser una novedad.<br>
+					Te mostramos los mejores microondas con grill, horno microondas baratos de las mejores marcas como Balay, Samsung, Fagor, Whirlpool, LG o Sharp para que decidas con la mejor información que microondas comprar.
 				</h3>
-        		<p><a class="btn btn-primary btn-large" title="Blog" href="/blog">ver Blog</a> &nbsp;&nbsp;<a class="btn btn-primary btn-large" title="Microondas" href="/microondas">ver Microondas</a></p>
+        		<p><br><a class="btn btn-primary btn-large" title="Blog" href="/blog">ver Blog</a> &nbsp;&nbsp;<a class="btn btn-primary btn-large" title="Microondas" href="/microondas">ver Microondas</a></p>
       		</div>
 			<!-- end: Hero Unit -->
 
