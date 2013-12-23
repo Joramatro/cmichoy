@@ -247,7 +247,8 @@ public class HomeController {
 	    Mail.sendMail(mensaje.toString(), "CMH " + request.getRequestURI());
 	    return null;
 	} else if (existsAccept) {
-	    Mail.sendMail(mensaje.toString(), "CMH " + request.getRequestURI());
+	    // Mail.sendMail(mensaje.toString(), "CMH " +
+	    // request.getRequestURI());
 	    model.addAttribute("publicacion", publicacion);
 
 	    if (url.endsWith("-2")) {
