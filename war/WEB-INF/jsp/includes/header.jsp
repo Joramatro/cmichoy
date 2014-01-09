@@ -74,7 +74,7 @@
 		<meta name="copyright" content="Comprar Microondas Hoy" />
 		<meta name="application-name" content="Extras en Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Extras y accesorios online para tu cafetera en Comprar Cafetera Express"/>
+		<meta property="og:title" content="Extras y accesorios online para tu microondas en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Accede a todos los extras para comprar online accesorios a tu microondas como un plato de microondas, plato crisp o tupperwares"/>
 		<meta property="og:type" content="extras"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/extras"/>
