@@ -118,7 +118,7 @@
       		<div class="hero-unit">
 				<h3>
 					Desde que el horno microondas ha llegado a nuestras vidas y cocinas, nuestra forma de vida ha cambiado completamente de manera que a muchos nos cuesta imaginarnos una vida sin este aparato: hace tiempo que dejó de ser una novedad.<br>
-					Te mostramos los mejores microondas con grill, horno microondas baratos de las mejores marcas como Balay, Samsung, Fagor, Whirlpool, LG o Sharp para que decidas con la mejor información que microondas comprar.
+					Te mostramos los mejores microondas con grill, horno microondas baratos y hornos eléctricos de las mejores marcas como Balay, Samsung, Fagor, Whirlpool, LG o Sharp para que decidas con la mejor información que microondas comprar.
 				</h3>
         		<p><br><a class="btn btn-primary btn-large" title="Blog" href="/blog">ver Blog</a> &nbsp;&nbsp;<a class="btn btn-primary btn-large" title="Microondas" href="/microondas">ver Microondas</a></p>
       		</div>

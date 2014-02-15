@@ -235,14 +235,14 @@
 		<!-- end: Twitter tags -->		
 	</c:when>	
 	<c:otherwise>
-		<title>Bienvenido a Comprar Microondas Hoy - Análisis y opinión sobre los mejores microondas para comprar online</title> 
-		<meta name="description" content="Información para que puedas comprar microondas adecuado para casa, de conveccion, integrable, encastrable, con horno, con grill, además de baratos y de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool"/>
+		<title>Bienvenido a Comprar Microondas Hoy - Análisis para comprar online los mejores microondas, hornos microondas y hornos eléctricos</title> 
+		<meta name="description" content="Información para que puedas comprar microondas y horno microondas adecuado para casa, de conveccion, integrable, encastrable, con grill, horno eléctrico además de baratos y de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool"/>
 		<meta name="author" content="Comprar Microondas Hoy" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
 		<meta name="application-name" content="Microondas en Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Bienvenido a Comprar Microondas Hoy - Análisis y opinión sobre los mejores microondas para comprar online"/>
-		<meta property="og:description" content="Información para que puedas comprar microondas adecuado a tus necesidades para casa, de conveccion, integrable, encastrable, con horno, con grill, además de baratos y de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool"/>
+		<meta property="og:title" content="Bienvenido a Comprar Microondas Hoy - Análisis y opinión sobre los mejores microondas y hornos microondas para comprar online"/>
+		<meta property="og:description" content="Información para que puedas comprar microondas adecuado a tus necesidades para casa, de conveccion, integrable, encastrable, con horno eléctrico, con grill, además de baratos y de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
