@@ -41,6 +41,15 @@
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
 		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/microondas/${publicacion.url}“/>
+		<!--
+		  <PageMap>
+		    <DataObject type="thumbnail">
+		      <Attribute name="src" value="${publicacion.lImages[0]}"/>
+		      <Attribute name="width" value="100"/>
+		      <Attribute name="height" value="130"/>
+		    </DataObject>
+		  </PageMap>
+		-->		
 	</c:when>
 	<c:when test="${!empty publicacion && publicacion.tipo eq 'AR'}">
 		<title>${publicacion.titulo} en Comprar Microondas Hoy</title> 
@@ -66,6 +75,15 @@
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
 		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/blog/${publicacion.url}“/>
+		<!--
+		  <PageMap>
+		    <DataObject type="thumbnail">
+		      <Attribute name="src" value="${publicacion.lImages[0]}"/>
+		      <Attribute name="width" value="100"/>
+		      <Attribute name="height" value="130"/>
+		    </DataObject>
+		  </PageMap>
+		-->		
 	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'extras')}">
 		<title>Extras y accesorios online para tu microondas en Comprar Microondas Hoy</title> 
@@ -146,6 +164,41 @@
 		<!-- end: Twitter tags -->
 		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/contacto“/>
 	</c:when>
+	
+	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks') && not empty param.filtro}">
+		<title>Microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Microondas Hoy</title> 
+		<meta name="description" content="Análisis y precios de los mejores microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas elegir con la mejor información y comprar tu microondas preferido y comparar online"/>
+		<meta name="author" content="Jorge Amat" />
+		<meta name="copyright" content="Comprar Microondas Hoy" />
+		<meta name="application-name" content="Microondas en Comprar Microondas Hoy" />
+		<!-- start: Facebook Open Graph -->
+		<meta property="og:title" content="Microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Microondas Hoy"/>
+		<meta property="og:description" content="Análisis y precios de los mejores microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas elegir con la mejor información y comprar tu microondas preferido y comparar online"/>
+		<meta property="og:type" content="microondas"/>
+		<meta property="og:url" content="http://www.comprarmicroondashoy.com/microondas"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
+			</c:if>
+		</c:if>
+		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<!-- end: Facebook Open Graph -->
+		<!-- start: Twitter tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@ComprarHoy">
+		<meta name="twitter:creator" content="@ComprarHoy">
+		<meta property="twitter:title" content="Microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Microondas Hoy"/>
+		<meta property="twitter:description" content="Análisis y precios de los mejores microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas elegir con la mejor información y comprar tu microondas preferido y comparar online"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
+			</c:if>
+		</c:if>
+		<meta name="twitter:domain" content="comprarmicroondashoy.com">
+		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/microondas“/>
+		<!-- end: Twitter tags -->		
+	</c:when>	
+	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks')}">
 		<title>Microondas, precios y análisis en Comprar Microondas Hoy</title> 
 		<meta name="description" content="Análisis y precios de los mejores microondas, horno microondas, de conveccion, integrable o encastrable de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool para que puedas comprar tu microondas preferido y comparar online"/>
@@ -179,6 +232,41 @@
 		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/microondas“/>
 		<!-- end: Twitter tags -->		
 	</c:when>
+	
+	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog') && not empty param.filtro}">
+		<title>Artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Microondas Hoy</title> 
+		<meta name="description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en nuestro blog con toda la actualidad e información necesaria para que puedas comprar el microondas más adecuado a tus necesidades online"/>
+		<meta name="author" content="Jorge Amat" />
+		<meta name="copyright" content="Comprar Microondas Hoy" />
+		<meta name="application-name" content="Blog en Comprar Microondas Hoy" />
+		<!-- start: Facebook Open Graph -->
+		<meta property="og:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Microondas Hoy"/>
+		<meta property="og:description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en nuestro blog con toda la actualidad e información necesaria para que puedas comprar el microondas más adecuado a tus necesidades online"/>
+		<meta property="og:type" content="articulo"/>
+		<meta property="og:url" content="http://www.comprarmicroondashoy.com/blog"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
+			</c:if>
+		</c:if>
+		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<!-- end: Facebook Open Graph -->
+		<!-- start: Twitter tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@ComprarHoy">
+		<meta name="twitter:creator" content="@ComprarHoy">
+		<meta property="twitter:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Microondas Hoy"/>
+		<meta property="twitter:description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en nuestro blog con toda la actualidad e información necesaria para que puedas comprar el microondas más adecuado a tus necesidades online"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
+			</c:if>
+		</c:if>
+		<meta name="twitter:domain" content="comprarmicroondashoy.com">
+		<!-- end: Twitter tags -->
+		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/blog“/>		
+	</c:when>	
+	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
 		<title>Artículos y opinión sobre microondas en Comprar Microondas Hoy</title> 
 		<meta name="description" content="Opinión y artículos en nuestro blog de los mejores microondas, horno microondas, de conveccion, integrable o encastrable en la actualidad y para que puedas comprarlo online"/>
@@ -296,6 +384,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-44232925-1', 'comprarmicroondashoy.com');
+  ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
 </script>
