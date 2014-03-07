@@ -122,13 +122,13 @@
 				</div>				
 				<div class="span10">
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Hoy');" class="button color launch" target="_blank">¡ Cómpralo Hoy!</a></h2>				
+						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Hoy');" class="button color launch" target="_blank">¡ Comprar Hoy!</a></h2>				
 					</c:if>
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
 					${publicacion.articulo}				
 					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡ Cómpralo hoy al mejor precio!</a></h2>
+						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
 					</c:if>					
 					<br>
 					<!-- AddThis Button BEGIN -->
@@ -186,7 +186,7 @@
 						<c:forEach var="publicacionRel" items="${publicaciones}" varStatus="status" end="2">	
 						<div class="span3">	
 							<div class="picture">
-								<a href="/ebooks/${publicacionRel.url}" title="${publicacionRel.titulo}">
+								<a href="/microondas/${publicacionRel.url}" title="${publicacionRel.titulo}">
 									<c:if test="${!empty publicacionRel.lImages }">
 									<img style="width: 270px;height: 240px;" src="${publicacionRel.lImages[0]}" alt="${publicacionRel.titulo}"/>
 									</c:if>
@@ -194,7 +194,7 @@
 								</a>
 							</div>
 							<div class="item-description">
-								<h4><a title="${publicacionRel.titulo}" href="/ebooks/${publicacionRel.url}">${publicacionRel.titulo}</a></h4>
+								<h4><a title="${publicacionRel.titulo}" href="/microondas/${publicacionRel.url}">${publicacionRel.titulo}</a></h4>
 								<c:if test="${publicacionRel.sumaPuntos gt 0 }">
 								<div class="rateit" data-rateit-value="${publicacionRel.sumaPuntos div publicacionRel.votantes}" data-rateit-ispreset="true" data-rateit-readonly="true" title="<fmt:formatNumber type="number" minFractionDigits="2" maxFractionDigits="2" value="${publicacionRel.sumaPuntos div publicacionRel.votantes}" /> / 5"></div>
 								</c:if>
@@ -400,7 +400,7 @@
 	    	</div>
 
 			<div id="Amazon3prod" class="iframe_wrap">
-	    		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmicroh-21&o=30&p=8&l=as1&asins=B003CP0Z7S&ref=tf_til&fc1=666666&IS2=1&lt1=_blank&m=amazon&lc1=005580&bc1=EBF7F9&bg1=EBF7F9&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>   		
+	    		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmovsh-21&o=30&p=8&l=as1&asins=B0055ZOY7K&ref=tf_til&fc1=666666&IS2=1&lt1=_blank&m=amazon&lc1=005580&bc1=EBF7F9&bg1=EBF7F9&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 	    	</div>
 	    	<%--
 			<div id="Amazon4prod" class="iframe_wrap">
