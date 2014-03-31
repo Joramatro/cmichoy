@@ -40,7 +40,7 @@
 		<meta name="twitter:image" content="${publicacion.lImages[0]}">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/microondas/${publicacion.url}“/>
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/microondas/${publicacion.url}"/>
 		<!--
 		  <PageMap>
 		    <DataObject type="thumbnail">
@@ -74,7 +74,7 @@
 		<meta name="twitter:image" content="${publicacion.lImages[0]}">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/blog/${publicacion.url}“/>
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/blog/${publicacion.url}"/>
 		<!--
 		  <PageMap>
 		    <DataObject type="thumbnail">
@@ -112,7 +112,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->		
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/extras“/>
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/extras"/>
 	</c:when>
 		<c:when test="${fn:contains(pageContext.request.requestURI, 'sobre')}">
 		<title>Sobre Nosotros y Comprar Microondas Hoy</title> 
@@ -137,7 +137,7 @@
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/sobre“/>	
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/sobre"/>	
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacta')}">
 		<title>Contacta con Comprar Microondas Hoy</title> 
@@ -162,7 +162,7 @@
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/contacto“/>
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/contacto"/>
 	</c:when>
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'ebooks') && not empty param.filtro}">
@@ -195,7 +195,7 @@
 			</c:if>
 		</c:if>
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/microondas“/>
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/microondas"/>
 		<!-- end: Twitter tags -->		
 	</c:when>	
 	
@@ -229,7 +229,7 @@
 			</c:if>
 		</c:if>
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/microondas“/>
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/microondas"/>
 		<!-- end: Twitter tags -->		
 	</c:when>
 	
@@ -264,7 +264,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/blog“/>		
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/blog"/>		
 	</c:when>	
 	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
@@ -298,7 +298,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/blog“/>		
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/blog"/>		
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'privacidad')}">
 		<title>Política de privacidad de Comprar eBook Hoy</title> 
@@ -319,7 +319,7 @@
 		<meta name="twitter:title" content="Política de privacidad de Comprar Microondas Hoy">
 		<meta name="twitter:description" content="Política de privacidad y condiciones de uso de Comprar Microondas Hoy">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/politica-de-privacidad“/>
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com/politica-de-privacidad"/>
 		<!-- end: Twitter tags -->		
 	</c:when>	
 	<c:otherwise>
@@ -345,7 +345,7 @@
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->				
-		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com“/>
+		<link rel="canonical" href="http://www.comprarmicroondashoy.com"/>
 	</c:otherwise>		
 	</c:choose>
 	<link rel="alternate" type="application/rss+xml" title="Comprar Microondas Hoy RSS Feed" href="http://www.comprarmicroondashoy.com/rssfeed" />
@@ -386,6 +386,7 @@
   ga('create', 'UA-44232925-1', 'comprarmicroondashoy.com');
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
+  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
 
 </script>
 </head>
