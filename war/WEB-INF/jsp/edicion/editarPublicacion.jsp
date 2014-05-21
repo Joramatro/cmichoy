@@ -89,6 +89,10 @@
 -->
 
 <form method="POST" action="/edicion/guardarEdicionPublicacion">
+<input type="hidden" id="clase10" name="clase10" value=""/>
+<input type="hidden" id="clase11" name="clase11" value=""/>
+<input type="hidden" id="clase12" name="clase12" value=""/>
+
 Tipo: <select name="tipo" id="tipo">
 				  <option value="AR" ${publicacion.tipo == 'AR' ? 'selected' : ''}>Articulo</option>
 				  <option value="EB" ${publicacion.tipo == 'EB' ? 'selected' : ''}>Microondas</option>

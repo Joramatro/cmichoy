@@ -13,9 +13,9 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-44232925-1', 'comprarmicroondashoy.com');
-  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
-  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+  
 </script>
 </head>
 <body onload="window.location.href = '${publicacion.script31}'">

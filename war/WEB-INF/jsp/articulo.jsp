@@ -121,6 +121,28 @@
 					</ul>					
 				</div>
 				<div class="span10">
+					<!-- AddThis Button BEGIN -->
+					<div class="addthis_toolbox addthis_default_style ">
+					<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+					<a class="addthis_button_tweet"></a>
+					<a class="addthis_button_pinterest_pinit"></a>
+					<a class="addthis_counter addthis_pill_style"></a>&nbsp;&nbsp;
+					<g:plusone href="/microondas/${publicacion.url}" align="right" size="medium"></g:plusone>
+					</div>
+					<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-523eb37018889803"></script>
+					<!-- AddThis Button END -->
+					<!-- Botón +1. -->
+					<script type="text/javascript">
+					  (function() {
+					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+					    po.src = 'https://apis.google.com/js/plusone.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script> 
+					
+					<br>
+				
 					<c:if test="${publicacion.disponible ne 'N'}">
 						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Hoy');" class="button color launch" target="_blank">¡ Comprar Hoy!</a></h2>				
 					</c:if>
@@ -130,7 +152,7 @@
 					<c:if test="${publicacion.disponible ne 'N'}">
 						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
 					</c:if>					
-					<br>
+					
 					<!-- AddThis Button BEGIN -->
 					<div class="addthis_toolbox addthis_default_style ">
 					<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -224,7 +246,7 @@
 						<ol class="commentlist">
 						<c:forEach var="comentario" items="${publicacion.comentariosDeref}" varStatus="status">
 							<c:if test="${comentario.publicado ne 'N'}">
-							<li style="width: 100%;">
+							<li style="width: 100%;padding-bottom:6px">
 								<div class="comments">
 									<div class="avatar">
 									<c:choose>
@@ -254,8 +276,11 @@
 											<span style="color:#0088cc;">@${comentario.comentarioReplyNombre} &nbsp;</span><a style="display:inherit" onmouseover="document.getElementById('comment_ref_${status.count}').style.display='block'" onmouseout="document.getElementById('comment_ref_${status.count}').style.display='none';" onclick="document.getElementById('comment_ref_${status.count}').style.display='none';" class="ancla_referencia">#${comentario.comentarioReplyNbr}<span class="referencia" id="comment_ref_${status.count}" style="display:none;font-size: 13px;">${comentario.comentarioReply}</span></a> &nbsp;
 										</c:if>
 										
-										<span itemprop="description">${fn:replace(comentario.comentario, newLineChar, "<br>")}</span>
+										<span itemprop="description">${fn:replace(comentario.comentario, newLineChar, "<br>")} </span>
 										</p>
+										<div style="clear: both;padding-top: 10px;padding-bottom: 10px;">
+											<a title="Responder mensaje citando" href="#comments-form" onclick="javascript:replyComment('${status.count}');" style="font-size:14px;" >Responder</a>
+										</div>
 									</div>
 								</div>		
 							</li>
@@ -270,7 +295,7 @@
 						<ol class="commentlist">
 						<c:forEach var="comentario" items="${publicacion.comentariosDeref}" varStatus="status">
 							<c:if test="${comentario.publicado ne 'N'}">
-							<li style="width: 100%;">
+							<li style="width: 100%;padding-bottom:6px">
 								<div class="comments">
 									<div class="avatar">
 									<c:choose>
@@ -301,7 +326,10 @@
 										</c:if>
 										
 										<span itemprop="description">${fn:replace(comentario.comentario, newLineChar, "<br>")}</span>
-										</p>
+										</p>						
+										<div style="clear: both;padding-top: 10px;padding-bottom: 10px;">
+											<a title="Responder mensaje citando" href="#comments-form" onclick="javascript:replyComment('${status.count}');" style="font-size:14px;" >Responder</a>
+										</div>
 									</div>
 								</div>		
 							</li>

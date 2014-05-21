@@ -301,7 +301,7 @@
 		<link rel="canonical" href="http://www.comprarmicroondashoy.com/blog"/>		
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'privacidad')}">
-		<title>Política de privacidad de Comprar eBook Hoy</title> 
+		<title>Política de privacidad de Comprar Microondas Hoy</title> 
 		<meta name="description" content="Política de privacidad y condiciones de uso de Comprar Microondas Hoy"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
@@ -384,9 +384,8 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-44232925-1', 'comprarmicroondashoy.com');
-  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
-  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
 
 </script>
 </head>
