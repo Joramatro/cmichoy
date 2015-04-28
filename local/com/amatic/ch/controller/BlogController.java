@@ -124,7 +124,8 @@ public class BlogController extends PublicacionAbstract {
 	    originalUrl = originalUrl.replace("-5", "");
 	}
 
-	String key = WebUtils.SHA1(originalUrl.replaceAll("-", " "));
+	String key = WebUtils.SHA1(originalUrl.replaceAll("-", " ")
+		.toLowerCase());
 	Publicacion publicacion = null;
 	if (tipo.equals("principal")) {
 	    publicacion = publicacionService.getPublicacion(key,
