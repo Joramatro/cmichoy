@@ -403,7 +403,7 @@
 			$("#_image6").css('margin-left', '');
 			$(".imageContextual").css('margin-left', '');
 		}
-		if($('#footer').width() < 1345){
+		if($('#footer').width() < 1300){
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
 		}
@@ -415,7 +415,7 @@
 		}else{
 			$("#banAmazonHorizontal").show();
 		}
-		if($('#footer').width() < 1345){
+		if($('#footer').width() < 1300){
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
 		}else{
@@ -423,16 +423,18 @@
 			$(".slide-caption").show();
 		}
 	});
-	
+	var lastScrollTop = 0;
 	$(window).scroll(function(){
 		if($('#footer').width() >= 855){
-		    if($(window).scrollTop() > 921){
+		    if($(window).scrollTop() > 901){
 		    	$("#banAmazonHorizontal").css({position:"fixed",top:"20px"});
-			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 180){
-			    	$("#banAmazonHorizontal").hide();
-			    }else{
-			    	$("#banAmazonHorizontal").show();
+		    	var st = $(this).scrollTop();
+			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 180 && st > lastScrollTop){
+			    	$("#banAmazonHorizontal").hide("fast");
+			    }else if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) < $("#ttpi").offset().top - 180 && st < lastScrollTop){
+			    	$("#banAmazonHorizontal").show("fast");
 			    }
+			    lastScrollTop = st;
 		    }else{
 				$("#banAmazonHorizontal").css({position:"absolute",top:"921px",left:"54px"});
 			}
