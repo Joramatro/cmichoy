@@ -20,11 +20,11 @@
 		<meta name="description" content="${publicacion.descripcion} en Comprar Microondas Hoy"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="${publicacion.titulo} en Comprar Microondas Hoy" />
+		<meta name="application-name" content="Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo} en análisis y online en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="${publicacion.descripcion} en Comprar Microondas Hoy"/>
-		<meta property="og:type" content="microondas"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/microondas/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
@@ -54,11 +54,11 @@
 		<meta name="description" content="${publicacion.descripcion}"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="${publicacion.titulo} en Comprar Microondas Hoy" />
+		<meta name="application-name" content="Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
-		<meta property="og:type" content="articulos"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
@@ -88,11 +88,11 @@
 		<meta name="description" content="Accede a todos los extras para comprar online accesorios a tu microondas como un plato de microondas, plato crisp, tupperwares o agarres"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Extras en Comprar Microondas Hoy" />
+		<meta name="application-name" content="Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Extras y accesorios online para tu microondas en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Accede a todos los extras para comprar online accesorios a tu microondas como un plato de microondas, plato crisp o tupperwares"/>
-		<meta property="og:type" content="extras"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/extras"/>
 		<c:if test="${!empty publicaciones}">
 			<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
@@ -117,11 +117,10 @@
 		<meta name="description" content="Toda la información sobre los que trabajamos en Comprar Microondas Hoy, su experiencia y valores profesionales"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Sobre Nosotros en Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Sobre Nosotros en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Microondas Hoy, su experiencia y valores profesionales"/>
-		<meta property="og:type" content="sobre"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/sobre"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
 		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
@@ -142,11 +141,10 @@
 		<meta name="description" content="Contacta con los que trabajamos en Comprar Microondas Hoy"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Contacto en Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Microondas Hoy"/>
-		<meta property="og:type" content="contacto"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/contacto"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
 		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
@@ -168,11 +166,11 @@
 		<meta name="description" content="Análisis y precios de los mejores microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas elegir con la mejor información y comprar tu microondas preferido y comparar online"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Microondas en Comprar Microondas Hoy" />
+		<meta name="application-name" content="Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Análisis y precios de los mejores microondas de <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas elegir con la mejor información y comprar tu microondas preferido y comparar online"/>
-		<meta property="og:type" content="microondas"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/microondas"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -202,11 +200,11 @@
 		<meta name="description" content="Análisis y precios de los mejores microondas, horno microondas, de conveccion, integrable o encastrable de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool para que puedas comprar tu microondas preferido y comparar online"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Microondas en Comprar Microondas Hoy" />
+		<meta name="application-name" content="Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Microondas, precios y análisis en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Análisis y precios de los mejores microondas, horno microondas, de conveccion, integrable o encastrable de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool para que puedas comprarlo online"/>
-		<meta property="og:type" content="microondas"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/microondas"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -236,11 +234,11 @@
 		<meta name="description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en nuestro blog con toda la actualidad e información necesaria para que puedas comprar el microondas más adecuado a tus necesidades online"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Blog en Comprar Microondas Hoy" />
+		<meta name="application-name" content="Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en nuestro blog con toda la actualidad e información necesaria para que puedas comprar el microondas más adecuado a tus necesidades online"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -270,11 +268,11 @@
 		<meta name="description" content="Opinión y artículos en nuestro blog de los mejores microondas, horno microondas, de conveccion, integrable o encastrable en la actualidad y para que puedas comprarlo online"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Blog en Comprar Microondas Hoy" />
+		<meta name="application-name" content="Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos y opinión sobre microondas en Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Opinión y artículos en nuestro blog de los mejores microondas, horno microondas, de conveccion, integrable o encastrable en la actualidad y para que puedas comprarlo online"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -303,7 +301,6 @@
 		<meta name="description" content="Política de privacidad y condiciones de uso de Comprar Microondas Hoy"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Política privacidad Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Política de privacidad de Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Política de privacidad y condiciones de uso de Comprar Microondas Hoy"/>
@@ -325,11 +322,11 @@
 		<meta name="description" content="Información para que puedas comprar microondas y horno microondas adecuado para casa, de conveccion, integrable, encastrable, con grill, horno eléctrico además de baratos y de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool"/>
 		<meta name="author" content="Comprar Microondas Hoy" />
 		<meta name="copyright" content="Comprar Microondas Hoy" />
-		<meta name="application-name" content="Microondas en Comprar Microondas Hoy" />
+		<meta name="application-name" content="Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Bienvenido a Comprar Microondas Hoy - Análisis y opinión sobre los mejores microondas y hornos microondas para comprar online"/>
 		<meta property="og:description" content="Información para que puedas comprar microondas adecuado a tus necesidades para casa, de conveccion, integrable, encastrable, con horno eléctrico, con grill, además de baratos y de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool"/>
-		<meta property="og:type" content="principal"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
 		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
