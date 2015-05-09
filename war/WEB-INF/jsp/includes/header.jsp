@@ -28,6 +28,7 @@
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/microondas/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -62,6 +63,7 @@
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -178,6 +180,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -212,6 +215,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -246,6 +250,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -280,6 +285,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
