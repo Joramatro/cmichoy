@@ -27,7 +27,7 @@
 		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/microondas/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -61,7 +61,7 @@
 		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -97,7 +97,7 @@
 		<c:if test="${!empty publicaciones}">
 			<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -122,8 +122,8 @@
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar Microondas Hoy, su experiencia y valores profesionales"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/sobre"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:image" content="http://www.comprarmicroondashoy.com/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -131,7 +131,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Sobre nosotros en Comprar Microondas Hoy">
 		<meta name="twitter:description" content="Toda la información sobre los que trabajamos en Comprar Microondas Hoy, su experiencia y valores profesionales">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="http://www.comprarmicroondashoy.com/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarmicroondashoy.com/sobre"/>	
@@ -146,8 +146,8 @@
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar Microondas Hoy"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/contacto"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:image" content="http://www.comprarmicroondashoy.com/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -155,7 +155,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Contacta con nosotros en Comprar Microondas Hoy">
 		<meta name="twitter:description" content="Contacta con los que trabajamos en Comprar Microondas Hoy">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="http://www.comprarmicroondashoy.com/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarmicroondashoy.com/contacto"/>
@@ -177,7 +177,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -211,7 +211,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -245,7 +245,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -279,7 +279,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -305,7 +305,7 @@
 		<meta property="og:title" content="Política de privacidad de Comprar Microondas Hoy"/>
 		<meta property="og:description" content="Política de privacidad y condiciones de uso de Comprar Microondas Hoy"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com/politica-de-privacidad"/>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -328,8 +328,8 @@
 		<meta property="og:description" content="Información para que puedas comprar microondas adecuado a tus necesidades para casa, de conveccion, integrable, encastrable, con horno eléctrico, con grill, además de baratos y de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
-		<meta property="og:email" content="hola@comprarmicroondashoy.com"/>
+		<meta property="og:image" content="http://www.comprarmicroondashoy.com/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:site_name" content="Comprar Microondas Hoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -337,7 +337,7 @@
 		<meta name="twitter:creator" content="@ComprarHoy">
 		<meta name="twitter:title" content="Microondas en Comprar Microondas Hoy online">
 		<meta name="twitter:description" content="Información para que puedas comprar microondas adecuado a tus necesidades para casa, de conveccion, integrable, encastrable, con horno, con grill, además de baratos y de las mejores marcas como LG, Bomann, Candy, Moulinex, Teka, Samsung o Whirlpool">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="http://www.comprarmicroondashoy.com/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarmicroondashoy.com">
 		<!-- end: Twitter tags -->				
 		<link rel="canonical" href="http://www.comprarmicroondashoy.com"/>
