@@ -116,14 +116,14 @@
 					
 					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Hoy');" class="button color launch" target="_blank">¡ Comprar Hoy!</a></h2>				
+						<h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Hoy');" class="button color launch" target="_blank">¡Comprar Hoy!</a></h2>				
 					</c:if>
 					<div id="content" itemprop="articleBody">
 					${publicacion.articulo}
 					</div>			
 					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
+						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡Comprar Hoy!</a></h2>
 					</c:if>					
 					
 					<!-- Go to www.addthis.com/dashboard to customize your tools -->
